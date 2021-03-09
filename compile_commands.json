@@ -5,9 +5,12 @@
             "-c",
             "-target",
             "armv7ar-none-none-eabi",
-            "-isystem/usr/local/Cellar/arm-gcc-bin/9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/include",
-            "-isystem/usr/local/Cellar/arm-gcc-bin/9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed",
-            "-isystem/usr/local/Cellar/arm-gcc-bin/9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include",
+            "-fno-ms-extensions",
+            "-fno-ms-compatibility",
+            "-fno-delayed-template-parsing",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
             "-isystem./include",
             "-iquote./include/./",
             "-mthumb",
@@ -21,11 +24,11 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/auto.c.o",
-            "src/auto.c"
+            "C:/Users/NWK/AppData/Local/Temp/tmp51ssoqvc/auto.c.o",
+            "src\\auto.c"
         ],
-        "directory": "/Users/dirkwrightthe2nd/Documents/RoboCarTeleOp_2",
-        "file": "src/auto.c"
+        "directory": "C:\\Users\\NWK\\github\\RoboCarTeleOp_2",
+        "file": "src\\auto.c"
     },
     {
         "arguments": [
@@ -33,9 +36,12 @@
             "-c",
             "-target",
             "armv7ar-none-none-eabi",
-            "-isystem/usr/local/Cellar/arm-gcc-bin/9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/include",
-            "-isystem/usr/local/Cellar/arm-gcc-bin/9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed",
-            "-isystem/usr/local/Cellar/arm-gcc-bin/9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include",
+            "-fno-ms-extensions",
+            "-fno-ms-compatibility",
+            "-fno-delayed-template-parsing",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
             "-isystem./include",
             "-iquote./include/./",
             "-mthumb",
@@ -49,11 +55,11 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/init.c.o",
-            "src/init.c"
+            "C:/Users/NWK/AppData/Local/Temp/tmp51ssoqvc/opcontrol.c.o",
+            "src\\opcontrol.c"
         ],
-        "directory": "/Users/dirkwrightthe2nd/Documents/RoboCarTeleOp_2",
-        "file": "src/init.c"
+        "directory": "C:\\Users\\NWK\\github\\RoboCarTeleOp_2",
+        "file": "src\\opcontrol.c"
     },
     {
         "arguments": [
@@ -61,9 +67,12 @@
             "-c",
             "-target",
             "armv7ar-none-none-eabi",
-            "-isystem/usr/local/Cellar/arm-gcc-bin/9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/include",
-            "-isystem/usr/local/Cellar/arm-gcc-bin/9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed",
-            "-isystem/usr/local/Cellar/arm-gcc-bin/9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include",
+            "-fno-ms-extensions",
+            "-fno-ms-compatibility",
+            "-fno-delayed-template-parsing",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
             "-isystem./include",
             "-iquote./include/./",
             "-mthumb",
@@ -77,10 +86,10 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/opcontrol.c.o",
-            "src/opcontrol.c"
+            "C:/Users/NWK/AppData/Local/Temp/tmp51ssoqvc/init.c.o",
+            "src\\init.c"
         ],
-        "directory": "/Users/dirkwrightthe2nd/Documents/RoboCarTeleOp_2",
-        "file": "src/opcontrol.c"
+        "directory": "C:\\Users\\NWK\\github\\RoboCarTeleOp_2",
+        "file": "src\\init.c"
     }
 ]

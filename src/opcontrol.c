@@ -27,6 +27,7 @@
  * This task should never exit; it should end with some kind of infinite loop, even if empty.
  */
 //I dont know if im doing this correctly. -Reuben
+// Wassup everybody. -Nate
 void operatorControl() {
 	while (1) {
 		printf("Hello PROS User!\n");
