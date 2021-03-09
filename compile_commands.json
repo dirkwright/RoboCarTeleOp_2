@@ -8,9 +8,9 @@
             "-fno-ms-extensions",
             "-fno-ms-compatibility",
             "-fno-delayed-template-parsing",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
+            "-isystemc:\\users\\reube\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
+            "-isystemc:\\users\\reube\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+            "-isystemc:\\users\\reube\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
             "-isystem./include",
             "-iquote./include/./",
             "-mthumb",
@@ -24,10 +24,10 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "C:/Users/NWK/AppData/Local/Temp/tmp51ssoqvc/auto.c.o",
+            "bin/auto.c.o",
             "src\\auto.c"
         ],
-        "directory": "C:\\Users\\NWK\\github\\RoboCarTeleOp_2",
+        "directory": "C:\\Users\\reube\\Documents\\PROS\\RoboCarTeleOp_2",
         "file": "src\\auto.c"
     },
     {
@@ -39,9 +39,9 @@
             "-fno-ms-extensions",
             "-fno-ms-compatibility",
             "-fno-delayed-template-parsing",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
+            "-isystemc:\\users\\reube\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
+            "-isystemc:\\users\\reube\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+            "-isystemc:\\users\\reube\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
             "-isystem./include",
             "-iquote./include/./",
             "-mthumb",
@@ -55,10 +55,10 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "C:/Users/NWK/AppData/Local/Temp/tmp51ssoqvc/opcontrol.c.o",
+            "bin/opcontrol.c.o",
             "src\\opcontrol.c"
         ],
-        "directory": "C:\\Users\\NWK\\github\\RoboCarTeleOp_2",
+        "directory": "C:\\Users\\reube\\Documents\\PROS\\RoboCarTeleOp_2",
         "file": "src\\opcontrol.c"
     },
     {
@@ -70,9 +70,9 @@
             "-fno-ms-extensions",
             "-fno-ms-compatibility",
             "-fno-delayed-template-parsing",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
+            "-isystemc:\\users\\reube\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
+            "-isystemc:\\users\\reube\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+            "-isystemc:\\users\\reube\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
             "-isystem./include",
             "-iquote./include/./",
             "-mthumb",
@@ -86,10 +86,10 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "C:/Users/NWK/AppData/Local/Temp/tmp51ssoqvc/init.c.o",
+            "bin/init.c.o",
             "src\\init.c"
         ],
-        "directory": "C:\\Users\\NWK\\github\\RoboCarTeleOp_2",
+        "directory": "C:\\Users\\reube\\Documents\\PROS\\RoboCarTeleOp_2",
         "file": "src\\init.c"
     }
 ]

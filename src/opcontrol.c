@@ -5,9 +5,15 @@
 // Mr Wright was here
 //I dont know if im doing this correctly. -Reuben
 //wats up from Nate 
+
+//This is just a test. You will probably have to change the port numbers.
 void operatorControl() {
 	while (1) {
-		printf("Hello PROS User!\n");
-		delay(20);
+		delay(10);
+		//drive
+		motorSet(2, joystickGetAnalog(2, 2));
+		motorSet(9, joystickGetAnalog(2, 2));
+		//turn
+		motorSet(10, joystickGetAnalog(2, 1));
 	}
 }
