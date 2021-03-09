@@ -24,7 +24,11 @@
  * This task should never exit; it should end with some kind of infinite loop, even if empty.
  */
 //I dont know if im doing this correctly. -Reuben
+<<<<<<< HEAD
 >>>>>>> 44cbf9f77849fe944f066eaba02b3c1559e0bf89
+=======
+// Wassup everybody. -Nate
+>>>>>>> cc7aa9a6bf0849cc9355703f2bb2f3ff850d7e10
 void operatorControl() {
 	while (1) {
 		printf("Hello PROS User!\n");
