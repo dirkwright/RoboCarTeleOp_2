@@ -3,7 +3,11 @@
 // Mr Wright was here
 //I dont know if im doing this correctly. -Reuben
 //wats up from Nate
+<<<<<<< HEAD
 
+=======
+// yo i'm here - rohun
+>>>>>>> bf00621a8d8ef2b511834ad00c0b1a5ac0adacaf
 //This is just a test. You will probably have to change the port numbers.
 void operatorControl() {
 	while (1) {
