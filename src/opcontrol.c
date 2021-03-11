@@ -1,19 +1,22 @@
-
-
 #include "main.h"
 
 // Mr Wright was here
 //I dont know if im doing this correctly. -Reuben
 //wats up from Nate
+<<<<<<< HEAD
 // Tommy Was Here t
+=======
+// Rohun 
+>>>>>>> af2070aa089bd70ece608d4332445fa71d1f6a08
 //This is just a test. You will probably have to change the port numbers.
 void operatorControl() {
 	while (1) {
 		delay(10);
+		printf(joystickGetAnalog(1, 2) + ", " + joystickGetAnalog(1, 1));
 		//drive
-		motorSet(2, joystickGetAnalog(2, 2));
-		motorSet(9, joystickGetAnalog(2, 2));
+		//motorSet(2, joystickGetAnalog(1, 2));
+		//motorSet(9, -joystickGetAnalog(1, 2));
 		//turn
-		motorSet(10, joystickGetAnalog(2, 1));
+		motorSet(1, joystickGetAnalog(1, 1));
 	}
 }
