@@ -14,6 +14,6 @@ void operatorControl() {
 		motorSet(2, joystickGetAnalog(2, 2));
 		motorSet(9, joystickGetAnalog(2, 2));
 		//turn
-		motorSet(10, joystickGetAnalog(2, 1));
+		motorSet(8, joystickGetAnalog(2, 1));
 	}
 }
