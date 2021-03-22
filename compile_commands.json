@@ -5,11 +5,6 @@
             "-c",
             "-target",
             "armv7ar-none-none-eabi",
-<<<<<<< HEAD
-            "-isystem/usr/local/Cellar/arm-gcc-bin/9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/include",
-            "-isystem/usr/local/Cellar/arm-gcc-bin/9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed",
-            "-isystem/usr/local/Cellar/arm-gcc-bin/9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include",
-=======
             "-fno-ms-extensions",
             "-fno-ms-compatibility",
             "-fno-delayed-template-parsing",
@@ -21,7 +16,6 @@
             "-isystemc:\\users\\reube\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
             "-isystemc:\\users\\reube\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
             "-isystemc:\\users\\reube\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
->>>>>>> 46656e0f378e91f8762d962ce6084414b2fe3bb2
 >>>>>>> af2070aa089bd70ece608d4332445fa71d1f6a08
             "-isystem./include",
             "-iquote./include/./",
@@ -36,33 +30,11 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-<<<<<<< HEAD
             "C:/Users/Admin/AppData/Local/Temp/tmp7sb15tq6/opcontrol.c.o",
             "src\\opcontrol.c"
         ],
         "directory": "C:\\Users\\Admin\\Documents\\RoboCarTeleOp_2",
         "file": "src\\opcontrol.c"
-=======
-<<<<<<< HEAD
-            "bin/opcontrol.c.o",
-            "src\\opcontrol.c"
-        ],
-        "directory": "C:\\Users\\NWK\\github\\RoboCarTeleOp_2",
-        "file": "src\\opcontrol.c"
-=======
-<<<<<<< HEAD
-            "bin/opcontrol.c.o",
-            "src/opcontrol.c"
-        ],
-        "directory": "/Users/dirkwrightthe2nd/Documents/RoboCarTeleOp_2",
-        "file": "src/opcontrol.c"
-=======
-            "bin/auto.c.o",
-            "src\\auto.c"
-        ],
-        "directory": "C:\\Users\\reube\\Documents\\PROS\\RoboCarTeleOp_2",
-        "file": "src\\auto.c"
->>>>>>> d0b5b681d55d194f5dec6560db520ad0a5889448
 >>>>>>> af2070aa089bd70ece608d4332445fa71d1f6a08
     },
     {
@@ -90,13 +62,6 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-<<<<<<< HEAD
-            "C:/Users/Admin/AppData/Local/Temp/tmp7sb15tq6/auto.c.o",
-            "src\\auto.c"
-        ],
-        "directory": "C:\\Users\\Admin\\Documents\\RoboCarTeleOp_2",
-        "file": "src\\auto.c"
-=======
 <<<<<<< HEAD
             "bin/auto.c.o",
             "src\\auto.c"
@@ -109,7 +74,6 @@
         ],
         "directory": "C:\\Users\\reube\\Documents\\PROS\\RoboCarTeleOp_2",
         "file": "src\\init.c"
->>>>>>> d0b5b681d55d194f5dec6560db520ad0a5889448
 >>>>>>> af2070aa089bd70ece608d4332445fa71d1f6a08
     },
     {
@@ -138,23 +102,15 @@
             "-std=gnu99",
             "-o",
 <<<<<<< HEAD
-            "C:/Users/Admin/AppData/Local/Temp/tmp7sb15tq6/init.c.o",
-=======
-<<<<<<< HEAD
             "bin/init.c.o",
->>>>>>> af2070aa089bd70ece608d4332445fa71d1f6a08
             "src\\init.c"
 =======
             "bin/opcontrol.c.o",
             "src\\opcontrol.c"
 >>>>>>> d0b5b681d55d194f5dec6560db520ad0a5889448
         ],
-<<<<<<< HEAD
-        "directory": "C:\\Users\\Admin\\Documents\\RoboCarTeleOp_2",
-=======
         "directory": "C:\\Users\\reube\\Documents\\PROS\\RoboCarTeleOp_2",
 <<<<<<< HEAD
->>>>>>> af2070aa089bd70ece608d4332445fa71d1f6a08
         "file": "src\\init.c"
 >>>>>>> 46656e0f378e91f8762d962ce6084414b2fe3bb2
 =======
