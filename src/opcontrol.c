@@ -8,7 +8,7 @@
 //I dont know if im doing this correctly. -Reuben
 //wats up from Nate
 // Tommy Was Here today
-//cahge by Mr Wright 
+
 
 //This is just a test. You will probably have to change the port numbers.
 void operatorControl()
