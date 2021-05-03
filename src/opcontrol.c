@@ -23,5 +23,6 @@ void operatorControl()
 		{
 			wallFollow();
 		}
+		printf("this is working \n");
 	}
 }
