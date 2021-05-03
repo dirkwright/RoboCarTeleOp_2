@@ -8,6 +8,7 @@
 //wats up from Nate
 // Tommy Was Here today
 
+
 //This is just a test. You will probably have to change the port numbers.
 void operatorControl()
 {
@@ -21,5 +22,6 @@ void operatorControl()
 		{
 			wallFollow();
 		}
+		printf("this is working /n");
 	}
 }
