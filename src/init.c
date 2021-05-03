@@ -34,4 +34,5 @@ void initializeIO() {
  * can be implemented in this task if desired.
  */
 void initialize() {
+    ultrasonicFront = ultrasonicInit(11, 12);
 }
