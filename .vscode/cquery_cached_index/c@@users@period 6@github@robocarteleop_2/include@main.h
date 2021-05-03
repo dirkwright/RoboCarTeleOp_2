@@ -25,12 +25,7 @@
 // This prevents multiple inclusion, which isn't bad for this file but is good practice
 #define MAIN_H_
 
-<<<<<<< HEAD
-=======
 #include "API.h"
-
-Ultrasonic ultrasonicFront;
->>>>>>> a37d1ee5c9cd5fcf49366e9c456e0ae20949e0aa
 
 // Allow usage of this file in C++ programs
 #ifdef __cplusplus
