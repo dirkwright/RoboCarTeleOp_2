@@ -4,7 +4,7 @@
 #include "chasis.h"
 
 int autoSpeed = 50;
-int autoSpeedTurn = 50;
+int autoSpeedTurn = 80;
 void wallFollow()
 {
     int ultrasonicFrontValue = ultrasonicGet(ultrasonicFront);
@@ -28,25 +28,25 @@ void lineFollow()
     int lineRight = analogReadCalibrated(1);
     int lineLeft = analogReadCalibrated(2);
     printf("Lineleft: %d and Lineright: %d\n", lineLeft, lineRight);
-    if (lineLeft > 2000)
+    if (lineLeft > 2100)
     {
         print("going right");
         drive(autoSpeed, autoSpeedTurn);
         delay(100);
         drive(autoSpeed, 0);
-        delay(700);
+        delay(1000);
         drive(autoSpeed, -autoSpeedTurn);
         delay(100);
         drive(autoSpeed, 0);
         delay(100);
     }
-    else if (lineRight > 2000)
+    else if (lineRight > 2100)
     {
         print("going left");
         drive(autoSpeed, -autoSpeedTurn);
         delay(100);
         drive(autoSpeed, 0);
-        delay(700);
+        delay(1000);
         drive(autoSpeed, autoSpeedTurn);
         delay(100);
         drive(autoSpeed, 0);
