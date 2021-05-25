@@ -1,5 +1,3 @@
-
-
 #include "main.h"
 #include "auto.h"
 #include "chasis.h"
@@ -15,14 +13,21 @@ void operatorControl()
 {
 	while (1)
 	{
+
 		delay(10);
 		//printf("%d, %d" , joystickGetAnalog(1, 2), joystickGetAnalog(1, 1));
-		//drive
-		drive(joystickGetAnalog(1, 2), joystickGetAnalog(1, 1));
+		//printf("Ultrasonic: %d\n", ultrasonicGet(ultrasonicFront));
 		if (joystickGetDigital(1, 8, JOY_UP))
 		{
-			wallFollow();
+			autoRoutine();
 		}
+		else
+		{
+			drive(joystickGetAnalog(1, 2), joystickGetAnalog(1, 1));
+		}
+<<<<<<< HEAD
 		printf("this is working \n");
+=======
+>>>>>>> e78c412045ef17baa27f66fb1d25a240a3b40772
 	}
 }
