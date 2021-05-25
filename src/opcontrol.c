@@ -25,9 +25,6 @@ void operatorControl()
 		{
 			drive(joystickGetAnalog(1, 2), joystickGetAnalog(1, 1));
 		}
-<<<<<<< HEAD
 		printf("this is working \n");
-=======
->>>>>>> e78c412045ef17baa27f66fb1d25a240a3b40772
 	}
 }
