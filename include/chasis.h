@@ -5,9 +5,9 @@
 void drive(int power, int turn)
 {
     float turnPotRaw = analogReadCalibrated(3);
-    float OldRange = 4095.0-2735.0;
+    float OldRange = 3793.0-3472.0;
     float NewRange = 254.0;
-    float turnPot = (((turnPotRaw - 2735.0) * NewRange) / OldRange) - 127.0;
+    float turnPot = (((turnPotRaw - 3680) * NewRange) / OldRange) - 127.0;
     motorSet(3, power);
     motorSet(8, -power);
 
