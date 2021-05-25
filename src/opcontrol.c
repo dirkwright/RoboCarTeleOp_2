@@ -19,11 +19,7 @@ void operatorControl()
 		//printf("Ultrasonic: %d\n", ultrasonicGet(ultrasonicFront));
 		if (joystickGetDigital(1, 8, JOY_UP))
 		{
-			wallFollow();
-		}
-		else if (joystickGetDigital(1, 8, JOY_DOWN))
-		{
-			lineFollow();
+			autoRoutine();
 		}
 		else
 		{

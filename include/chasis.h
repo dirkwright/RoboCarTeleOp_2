@@ -4,24 +4,29 @@
 
 void drive(int power, int turn)
 {
-    int turnPotRaw = analogReadCalibrated(3);
-    int turnPot = (((turnPotRaw - 2825) * (2)) / (4090 - 2825)) - 1;
+    float turnPotRaw = analogReadCalibrated(3);
+    float OldRange = 4095.0-2735.0;
+    float NewRange = 254.0;
+    float turnPot = (((turnPotRaw - 2735.0) * NewRange) / OldRange) - 127.0;
     motorSet(3, power);
     motorSet(8, -power);
-    if (turnPotRaw <= 2825)
+
+    printf("Potentiometer raw: %f, Potentiometer scaled: %f\n", turnPotRaw, turnPot);
+
+    float Kp = 0.6;
+    int MAX_OUT = 127;
+    float error;
+    int output;
+
+    error = turn - turnPot;
+    output = Kp * error;
+    if (abs(error) < MAX_OUT)
     {
-        motorSet(6, 20);
-    }
-    else if (turnPotRaw >= 4090)
-    {
-        motorSet(6, -20);
+        motorSet(6, output);
     }
     else
     {
-        motorSet(6, turn);
+        motorSet(6, output / abs(output) * MAX_OUT);
     }
-    
-    //printf("Potentiometer: %d\n", turnPot);
 }
-
 #endif
